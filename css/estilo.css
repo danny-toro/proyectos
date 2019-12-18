@@ -1,3 +1,55 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	background: #fff
+}
+
+H1{
+	text-align: center;
+	color:#FFFFFF;
+}
+
+H2{
+	text-align: center;
+	color:#FFFFFF;
+}
+hr{
+	background: #FFFFFF;
+}
+
+#uno{
+	background: #191919;
+	padding: 22px;
+}
+.banner{
+	background-image: url("../img/1x/Mesa de trabajo 1.png");
+	width: 100%;
+	min-height: 100%;
+	background-repeat: no-repeat;	
+}
+
+.logo{
+	width: 30%;
+}
+
+.barranav{
+	background-color: #1D1D1D;
+	
+}
+
+.barranav a{
+	padding-left: 1.5%;
+	padding-right: 1.5%; 
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 25px
+}
+
+.barranav a:hover{
+	color: #000000;
+	background-color: #FFFFFF;
+	font-size: 30px;
+	padding: 16px;
+}
 

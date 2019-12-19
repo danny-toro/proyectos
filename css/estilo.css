@@ -31,10 +31,40 @@ footer{
 }
 
 #uno{
-	background: #191919;
+	background: rgba(0,0,0,0.90);
 	padding: 22px;
 }
 
+
+
+.cerrar{
+	position: absolute;top:7px; left:94%;
+	width: 30px;
+}
+
+.cruz{
+	width: 30px;
+}
+
+.ventana{
+	color:#ffffff;
+	background: #000000;
+	padding: 33px;
+	border-radius: 33px;
+	width: 40%;
+	display: none;
+	position: absolute;top: 2%;left: 30%
+}
+
+.ventanados{
+	color:#ffffff;
+	background: #000000;
+	padding: 33px;
+	border-radius: 33px;
+	width: 40%;
+	display: none;
+	position: absolute;top: 30%;left: 30%
+}
 
 .comprar{
 	position: relative; left: 45%;
@@ -53,7 +83,7 @@ footer{
 }
 
 .banner{
-	background-image: url("../img/1x/Mesa de trabajo 1.png");
+	background-image: url(" ../img/1x/banner.png");
 	width: 100%;
 	min-height: 100%;
 	background-repeat: no-repeat;	

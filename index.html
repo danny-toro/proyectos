@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/estilo.css">
 </head>
 
-<body>
+<body>	
 	<div class="banner">
 		<div class="container">
 			<div class="row">
@@ -21,8 +21,8 @@
 		<div class="container">
 			<div class="row">
 				<a href="index.html">INICIO</a>
-				<a href="#">MISION Y VICION</a>
-				<a href="#">CONTACTO</a>
+				<a href="javascript:abrir()">MISION</a>
+				<a href="javascript:abriru()">CONTACTO</a>
 			</div>
 		</div>
 	</div>
@@ -130,46 +130,49 @@
 				<br><br>
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa1.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">camisa </label><h2>$20.000</h2>
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa2.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">camisa</label><h2>$15.000</h2>
 				
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa3.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">saco </label><h2>$35.000</h2>
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa4.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">saco </label><h2>$40.000</h2>
+			</div>
+			<div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
+				<br>
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa5.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">saco </label><h2>$50.000</h2>
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa6.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">camisa</label><h2>$20.000</h2>
 				
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa7.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">saco</label><h2>$35.000</h2>
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-3 col-lg-3">
-				<img src="img/1x/fondo2.png" alt="" width="250px">
+				<img src="img/1x/camisa8.png" alt="" width="250px">
 				<input type="checkbox" name="camisa">
-				<label for="" class="camisa">camisa</label>
+				<label for="" class="camisa">camisa</label><h2>$20.000</h2>
 			</div>
 			<div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
 				<br>
@@ -178,12 +181,79 @@
 		</div>
 	</div>
 	
+	<div class="ventanados" id="ventan"> 
+		<div class="cerrar"> 
+			<a href="javascript:cerrar()">
+				<img src="img/1x/cerrar.png" class="cruz" alt=""></a>
+		</div>
+		<h2>MISION</h2>
+		<label for="">Somos una página web que ayuda a la distribución de artículos de vestir y posters, de diseños de anime, videojuegos o creados por terceros que quieren dar a conocer sus diseños, ofrecemos nuestros productos con calidad y precios económicos.</label>
+	</div>
+	
+	
+	<div class="ventana" id="venta"> 
+		<div class="cerrar"> 
+			<a href="javascript:cerraru()">
+				<img src="img/1x/cerrar.png" class="cruz" alt=""></a>
+		</div>
+		<h2>CONTACTO</h2>
+		
+		<form id = "formulario" role="form" action="" method="POST"> 
+                                
+                <div class="form-group">  
+                  <label for="nombre">Nombre de usuario</label> 
+                  <input id="nombre" type="text" name="nombre" class="form-control" required> 
+			    </div>
+                <div class="form-group">
+                  <label for="asunto">Asunto</label>
+                  <input id="asunto" type="text" name="asunto" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input id="email" type="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" class="form-control" rows="6" required></textarea> 
+                </div>
+                <input id="submit_button" name="enviar" type="submit" value="Enviar" class="botonr"/> 
+                <button id="borrar" type="reset" class="botonr">Borrar</button>
+                <div id="resultado"></div>
+                
+            </form>
+		
+	</div>
+	
+	
+
+	
 	
 	<br><br><br>
 	<footer>
-		<label for="" id="txtfo">postersymerch</label>
+		<hr>
+		<label for="" id="txtfo">POSTERYMERCH ©</label>
+		<hr>
 	</footer>
 	
+	
+	<script>
+		function abrir(){
+			document.getElementById("ventan").style.display="block";
+		}
+		
+		function cerrar(){
+			document.getElementById("ventan").style.display="none";
+		}
+	</script>
+	<script>
+		function abriru(){
+			document.getElementById("venta").style.display="block";
+		}
+		
+		function cerraru(){
+			document.getElementById("venta").style.display="none";
+		}
+	</script>
 		
 	
 	
